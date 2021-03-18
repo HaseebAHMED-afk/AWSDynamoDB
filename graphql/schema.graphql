@@ -1,0 +1,11 @@
+type Note{
+    id: ID!
+    name: String!
+    completed: String!
+}
+
+input NoteInput{
+    id: ID!
+    name: String!
+    completed: String!
+}
