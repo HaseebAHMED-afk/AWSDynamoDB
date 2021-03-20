@@ -13,15 +13,18 @@
   "devDependencies": {
     "@aws-cdk/assert": "1.92.0",
     "@types/jest": "^26.0.10",
-    "@types/node": "10.17.27",
+    "@types/node": "^10.17.27",
+    "aws-cdk": "1.92.0",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.92.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.92.0",
+    "@aws-cdk/aws-appsync": "1.94.1",
+    "@aws-cdk/aws-dynamodb": "1.94.1",
+    "@aws-cdk/aws-lambda": "1.94.1",
+    "@aws-cdk/core": "1.94.1",
     "source-map-support": "^0.5.16"
   }
 }
